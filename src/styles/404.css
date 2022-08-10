@@ -1,0 +1,27 @@
+@import url('./fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  background-color: #040c16;
+  font-family: 'Josefin Sans';
+  color: #cce9ea
+}
+
+.ed {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding-top: 11%;
+}
+
+.ei {
+  text-align: center;
+  vertical-align: center;
+}
+
+.et {
+  text-align: center;
+  vertical-align: center;
+  font-size: 45px;
+}
+

@@ -2,10 +2,7 @@ main {
   align-content: center;
   box-sizing: border-box;
   display: grid;
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
   hyphens: auto;
-  line-height: 1.65;
   margin: 0 auto;
   max-width: 680px;
   min-height: 100vh;
@@ -17,9 +14,6 @@ h1 {
 }
 h2 {
   margin-top: 1.5em;
-}
-p {
-  font-size: 16px;
 }
 a {
   border-bottom: 1px solid white;
