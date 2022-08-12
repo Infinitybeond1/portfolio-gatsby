@@ -1,6 +1,12 @@
 import React from 'react';
 import '../styles/index.css';
 import { DiscordLogo, GithubLogo, NewspaperClipping, EnvelopeOpen } from 'phosphor-react'
+import {Helmet} from 'react-helmet'
+<Helmet>
+        <html lang='en' />
+        <title>Infinity's site</title>
+        <meta name='description' content='My site where i do cool things :)' />
+</Helmet>
 
 function Index() {
   return (
