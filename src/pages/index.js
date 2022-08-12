@@ -3,7 +3,7 @@ import '../styles/index.css';
 import { DiscordLogo, GithubLogo, NewspaperClipping, EnvelopeOpen } from 'phosphor-react'
 
 function Index() {
-  return (   
+  return (
     <div class="topnav">
       <a className="active" href="~">Home</a>
       <a className="tab" href="/projects">Projects</a>
