@@ -37,6 +37,15 @@
   color: #020a14;
 }
 
+.home {
+  background: #09111b;
+  padding: 13px;
+  font-size: 17pt;
+}
+
 .footer {
   text-align: center;
+  /* font-family: scientifica; */
+  font-size: 11pt;
 }
+

@@ -25,8 +25,16 @@ function Index() {
         <a className="social" href="https://github.com/Infinitybeond1"> < GithubLogo size={19} /> </a>
       </div>
 
+      <div class="home">
+        <p>
+          👋 Hello, I'm Luke, also known as Infinitybeond1.<br />
+          I am linux user and FOSS enthusiast and developer. I love systems programming and web developement.<br />
+          Ive been a programmer for 3 years, and my favorite languages are nim and zig. Ive been into linux for a year now and I have some expirence with the command line. I also have some expirence with docker and the cloud! I started out programming by creating discord bots, and currently I make cli apps and websites.<br />
+        </p>
+      </div>
+
       <div class="footer">
-        <p class="footer-txt"> Made with <HeartStraight size={13} weight="fill" /> using the articblush colorscheme and GatsbyJS </p>
+        <p class="footer-txt"> Made with <HeartStraight size={12} weight="fill" /> using the articblush colorscheme and GatsbyJS </p>
       </div>
     </>
   );
