@@ -37,10 +37,18 @@
   color: #020a14;
 }
 
-.home {
+.home, .projects {
   background: #09111b;
   padding: 13px;
+  margin-bottom: 0.7rem;
+}
+
+.home {
   font-size: 17pt;
+}
+
+.home h1 {
+  font-size: 23pt;
 }
 
 .footer {
