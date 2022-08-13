@@ -55,5 +55,11 @@
   text-align: center;
   /* font-family: scientifica; */
   font-size: 11pt;
+  color: #b6beca
+}
+
+.footer a {
+  all: unset;
+  color: #b6beca
 }
 

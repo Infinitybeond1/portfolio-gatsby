@@ -46,7 +46,9 @@ function Index() {
       </div>
 
       <div class="footer">
-        <p class="footer-txt"> Made with <HeartStraight size={12} weight="fill" /> using the articblush colorscheme and GatsbyJS </p>
+        <p class="footer-txt">
+          Made with <HeartStraight size={12} weight="fill" /> using the <a href="https://github.com/articblush" target="_blank" rel="noreferrer">articblush</a> colorscheme and <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">GatsbyJS</a>
+        </p>
       </div>
     </>
   );
