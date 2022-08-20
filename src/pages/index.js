@@ -1,4 +1,4 @@
-import * from 'react';
+import * as React from "react"
 import '../styles/index.css';
 import { DiscordLogo, GithubLogo, NewspaperClipping, EnvelopeOpen, HeartStraight } from 'phosphor-react'
 
