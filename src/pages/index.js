@@ -1,15 +1,6 @@
-import React from 'react';
+import * from 'react';
 import '../styles/index.css';
 import { DiscordLogo, GithubLogo, NewspaperClipping, EnvelopeOpen, HeartStraight } from 'phosphor-react'
-import {Helmet} from 'react-helmet'
-<Helmet>
-  <title>Infinitybeond1's site</title>
-  <meta content="Infinitybeond1" property="og:title" />
-  <meta content="My website where I do cool stuff" property="og:description" />
-  <meta content="https://infinitybeond1.tk/~" property="og:url" />
-  <meta content="https://infinitybeond1.tk/favicon.ico" property="og:image" />
-  <meta content="#73c291" data-react-helmet="true" name="theme-color" />  
-</Helmet>
 
 function Index() {
   return (
@@ -53,5 +44,16 @@ function Index() {
     </>
   );
 }
+
+export const Head = () => (
+  <>
+    <title>Infinitybeond1's site</title>
+    <meta content="Infinitybeond1" property="og:title" />
+    <meta content="My website where I do cool stuff" property="og:description" />
+    <meta content="https://infinitybeond1.tk/~" property="og:url" />
+    <meta content="https://infinitybeond1.tk/favicon.ico" property="og:image" />
+    <meta content="#73c291" name="theme-color" />
+  </>
+)
 
 export default Index;
