@@ -36,9 +36,31 @@ function Index() {
         </p>
       </div>
 
+      <div class="tech" id="technologies">
+        <h1>
+          Technologies
+        </h1>
+        {/*<br/>*/}
+        <h2>Langs:</h2>
+        <img class="lang-nim" src="https://raw.githubusercontent.com/nim-lang/assets/master/Art/logo-crown.png" alt="nim-logo"/>
+        <img class="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zig/zig-original.svg" />
+        <img class="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+        <img class="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" />
+        <img class="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+        <img class="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
+        <img class="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" />
+        <img class="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+        <img class="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+        <img class="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+      </div>
+
       <div class="footer">
         <p class="footer-txt">
-          Made with <HeartStraight size={12} weight="fill" /> using the <a href="https://github.com/articblush" target="_blank" rel="noreferrer">articblush</a> colorscheme and <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">GatsbyJS</a>
+          Made with <HeartStraight size={12} weight="fill" class="heart"/> using the <a href="https://github.com/articblush" target="_blank" rel="noreferrer">articblush</a> colorscheme and <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">
+      <svg viewBox="0 0 128 128" class="gatsbyimg">
+        <path fill="#b6beca" d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zM13.2 64L64 114.8c-28.1 0-50.8-22.7-50.8-50.8zm62.2 49.5l-60.9-61C19.7 30 39.9 13.2 64 13.2c16.6 0 31.3 7.9 40.5 20.2L97 40.6c-7.3-10.4-19.3-17.1-33-17.1-17.6 0-32.5 11.2-38.1 26.8C33.1 57 75.4 98.8 78.1 102c12.7-4.7 22.3-15.5 25.4-28.9H81.9v-9.4l33 .2c-.1 24.3-16.9 44.5-39.5 49.6z"></path>
+      </svg>
+      </a>
         </p>
       </div>
     </>
