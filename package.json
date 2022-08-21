@@ -11,6 +11,7 @@
     "gatsby": "^4.5.3",
     "phosphor-react": "^1.4.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-github-calendar": "^3.3.3"
   }
 }

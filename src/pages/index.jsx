@@ -1,6 +1,7 @@
 import * as React from "react"
 import '../styles/index.css';
 import { DiscordLogo, GithubLogo, NewspaperClipping, EnvelopeOpen, HeartStraight } from 'phosphor-react'
+import GitHubCalendar from 'react-github-calendar';
 
 function Index() {
   return (
@@ -9,7 +10,7 @@ function Index() {
         <a className="active" href="/#home">Home</a>
         <a className="tab" href="/#projects">Projects</a>
         <a className="tab" href="/#technologies">Technologies</a>
-        <a className="tab" href="/#about">About</a>
+        <a className="tab" href="/#contributions">Contributions</a>
         <a className="social" href="https://discordapp.com/channels/@me/704106773660827690/"> < DiscordLogo size={19} /> </a>
         <a className="social" href="https://blog.infinitybeond1.tk/"> < NewspaperClipping size={19} /> </a>
         <a className="social" href="mailto:Infinitybeond1@protonmail.com"> < EnvelopeOpen size={19} /> </a>
@@ -78,6 +79,10 @@ function Index() {
         <img class="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/podman/podman-original.svg" />
       </div>
 
+      <div class="contrib" id="contributions">
+        <h1>Contributions</h1>
+        <GitHubCalendar username="Infinitybeond1" />
+      </div>
       <div class="footer">
         <p class="footer-txt">
           Made with <HeartStraight size={12} weight="fill" class="heart"/> using the <a href="https://github.com/articblush" target="_blank" rel="noreferrer">articblush</a> colorscheme and <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">

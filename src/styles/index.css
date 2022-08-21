@@ -37,11 +37,15 @@
   color: #020a14;
 }
 
-.home, .projects, .tech {
+.home, .projects, .tech, .contrib {
   background: #09111b;
   padding: 13px;
   margin-bottom: 0.7rem;
 }
+
+/*.contrib {
+  padding: 30px
+}*/
 
 .home {
   font-size: 17pt;
