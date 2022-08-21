@@ -81,7 +81,7 @@ function Index() {
 
       <div class="contrib" id="contributions">
         <h1>Contributions</h1>
-        <GitHubCalendar username="Infinitybeond1" year={new Date().getFullYear()} />
+        <GitHubCalendar username="Infinitybeond1" {/*year={new Date().getFullYear()}*/} />
       </div>
       <div class="footer">
         <p class="footer-txt">
